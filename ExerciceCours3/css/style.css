@@ -1,0 +1,16 @@
+/* TestCSS.css */
+/* Programmé par Elaine Giguere */
+/* Le 22 avril 2020 */
+
+h1,h2{
+    color:red;
+    font-size:200px;
+}
+h2{
+    font-size:2em;
+}
+body
+{
+    width: 100%; /* On pourrait aussi prendre 100% de la largeur */
+    margin: auto; /* pour centrer le site en largeur */
+}

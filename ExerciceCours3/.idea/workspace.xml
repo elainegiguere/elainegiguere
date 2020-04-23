@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="09e31aa0-862e-4892-a033-4d42fca89e1f" name="Default Changelist" comment="" />
+    <list default="true" id="1bb6d64c-4fd7-4613-91f2-d6b1b779aaea" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,13 +16,14 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1abSjYRUozDZM9aVvJElnTDwT6O" />
+  <component name="ProjectId" id="1aup1X8HhyJP0w9KJECXJuGUluO" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -34,26 +35,31 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/style" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="09e31aa0-862e-4892-a033-4d42fca89e1f" name="Default Changelist" comment="" />
-      <created>1587002935514</created>
+      <changelist id="1bb6d64c-4fd7-4613-91f2-d6b1b779aaea" name="Default Changelist" comment="" />
+      <created>1587595118975</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1587002935514</updated>
-      <workItem from="1587002936734" duration="5448000" />
-      <workItem from="1587322671896" duration="10993000" />
+      <updated>1587595118975</updated>
+      <workItem from="1587595121076" duration="3342000" />
     </task>
     <servers />
   </component>
@@ -61,13 +67,13 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="741" y="301" key="SettingsEditor" timestamp="1587331627103">
+    <state x="912" y="646" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587595189284">
       <screen x="0" y="23" width="2560" height="1340" />
     </state>
-    <state x="741" y="301" key="SettingsEditor/0.23.2560.1340@0.23.2560.1340" timestamp="1587331627103" />
-    <state x="916" y="495" key="com.intellij.ide.util.TipDialog" timestamp="1587322678206">
+    <state x="912" y="646" key="#com.intellij.fileTypes.FileTypeChooser/0.23.2560.1340@0.23.2560.1340" timestamp="1587595189284" />
+    <state x="692" y="317" key="SettingsEditor" timestamp="1587596133967">
       <screen x="0" y="23" width="2560" height="1340" />
     </state>
-    <state x="916" y="495" key="com.intellij.ide.util.TipDialog/0.23.2560.1340@0.23.2560.1340" timestamp="1587322678206" />
+    <state x="692" y="317" key="SettingsEditor/0.23.2560.1340@0.23.2560.1340" timestamp="1587596133967" />
   </component>
 </project>
