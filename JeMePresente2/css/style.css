@@ -1,0 +1,78 @@
+/* TestCSS.css */
+/* Programmé par Elaine Giguere */
+/* Le 22 avril 2020 */
+
+body {
+    width: 900px; /*Largeur du site*/
+    margin: auto; /* pour centrer le site en largeur */
+    background-image: url("../medias/BG_1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: lightblue;
+    }
+.topnav {
+    background-color: darksalmon;
+    overflow:hidden;
+}
+.topnav a{
+    float:left;
+    color: aqua;
+    text-align:center;
+    padding: 14px 16px;
+    text-decoration:none;
+    font-size: 1rem;
+}
+
+.topnav a:hover {
+    background-color: blue;
+color: black;}
+h1
+    {font-size: 2rem;
+    }
+h2
+    {font-size: 1rem;
+    }
+h1,h2
+    { color:blueviolet;
+    text-align: center
+    }
+p
+    { font-size: 20px;
+    text-align: justify;
+    }
+
+a:link
+    {color: lightblue;}
+
+a:visited
+    {color: darkblue;}
+
+a:hover
+    {text-underline: black;}
+
+img
+    {width:300px;
+    border-radius: 8px;
+    }
+
+img:hover
+    {box-shadow: coral;
+    }
+
+table
+    {border-color: aqua;
+    font-size: 1.5rem;
+    color:darkorange;}
+
+ul
+    {font-size: 1.5rem;
+    color:darkorange; }
+li
+    {font-size: 1rem;}
+
+div
+{
+    margin-left: 600px;
+    margin-right: 40px;
+    margin-top: 50px;
+}
