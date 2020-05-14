@@ -1,0 +1,28 @@
+/* TestCSS.css */
+/* Programmé par Elaine Giguere */
+/* Le 13 mai 2020 */
+
+h1
+{
+    text-align: center;
+}
+.fondbleu
+{
+    background-color: blue;
+    height: 6rem;
+}
+.fondrouge
+{
+    background-color: red;
+    height: 6rem;
+}
+.fondvert
+{
+    background-color: green;
+    height: 6rem;
+}
+.fondjaune
+{
+    background-color: yellow;
+    height: 6rem;
+}
