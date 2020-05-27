@@ -15,7 +15,7 @@ font-family: 'Muli', sans-serif;
 .fondblanc
 {
     background-color: white;
-    height: 20rem;
+    height: 35rem;
 }
 
 .fondvert
@@ -97,12 +97,15 @@ hr{
 .btn
 {
     text-align: center;
+    font-family: 'Muli', sans-serif;
+    font-size: 1rem;
+    font-weight: 100;
 }
 
 .fas
 {
     color: darkseagreen;
-    font-size: 2rem ;
+    font-size: 4rem ;
     padding-top: 3rem;
 
 }
