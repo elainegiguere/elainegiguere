@@ -1,0 +1,113 @@
+/* Style.css */
+/* Programmé par Elaine Giguere */
+/* Le 20 mai 2020 */
+
+@font-face
+{
+font-family: 'Muli', sans-serif;
+}
+
+@font-face
+{
+    font-family: Victoria;
+    src:url("../font/Victoria.ttf");
+}
+.fondblanc
+{
+    background-color: white;
+    height: 20rem;
+}
+
+.fondvert
+{
+    background-color:darkseagreen;
+    height: 30rem;
+}
+.fondphoto
+{
+    height: 20rem;
+}
+
+
+header
+{
+
+    background-image: url("../media/mojitoheader.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    margin: auto;
+    height:60rem;
+}
+
+h1
+{
+    font-family: Victoria;
+    font-size: 14rem;
+    color: black;
+    text-align: center;
+    margin-top: 6rem;
+}
+
+h3
+{
+    font-family: 'Muli', sans-serif;
+    font-size: 4rem;
+    font-weight: 100;
+    text-align: center;
+}
+
+h2
+{
+    font-family: Victoria;
+    font-size: 5rem;
+    color:white;
+    text-align: center;
+    padding-top: 5rem;
+}
+h4
+{
+    font-family: 'Muli', sans-serif;
+    font-size: 2rem;
+    font-weight: 100;
+    text-align: center;
+    padding-top: 2rem;
+}
+p
+{
+    font-family: 'Muli', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 100;
+    text-align: center;
+    color:white;
+}
+img
+{
+    display:block;
+    margin:auto;
+}
+
+hr{
+    margin-bottom:30px;
+    margin-top:20px;
+    max-width: 200px;
+    border-width: 1px;
+    border-color:whitesmoke;
+}
+.btn
+{
+    text-align: center;
+}
+
+.fas
+{
+    color: darkseagreen;
+    font-size: 2rem ;
+    padding-top: 3rem;
+
+}
+
+.noir
+{
+    color:black;
+}
