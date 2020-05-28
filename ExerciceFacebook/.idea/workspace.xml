@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3a38ba46-e2f4-48c5-bac8-448de5cc4395" name="Default Changelist" comment="" />
+    <list default="true" id="f28a13c9-117e-4fc5-b7f5-e4b523996c1a" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1cC1890kFaVlAZDEytWoRJRVNOO" />
+  <component name="ProjectId" id="1cVuHcnNZolktpZ6FrM3eAVh4ez" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -42,43 +42,22 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="3a38ba46-e2f4-48c5-bac8-448de5cc4395" name="Default Changelist" comment="" />
-      <created>1590017599411</created>
+      <changelist id="f28a13c9-117e-4fc5-b7f5-e4b523996c1a" name="Default Changelist" comment="" />
+      <created>1590625994264</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1590017599411</updated>
-      <workItem from="1590017602441" duration="19529000" />
-      <workItem from="1590516876513" duration="18474000" />
+      <updated>1590625994264</updated>
+      <workItem from="1590625995676" duration="3353000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="764" y="489" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1590440428401">
-      <screen x="0" y="23" width="2560" height="1340" />
-    </state>
-    <state x="764" y="489" key="#com.intellij.fileTypes.FileTypeChooser/0.23.2560.1340@0.23.2560.1340" timestamp="1590440428401" />
-    <state x="360" y="312" key="SettingsEditor" timestamp="1590623129961">
-      <screen x="0" y="23" width="2560" height="1340" />
-    </state>
-    <state x="360" y="312" key="SettingsEditor/0.23.2560.1340@0.23.2560.1340" timestamp="1590623129961" />
-    <state x="584" y="525" key="com.intellij.ide.util.TipDialog" timestamp="1590516877362">
-      <screen x="0" y="23" width="2560" height="1340" />
-    </state>
-    <state x="584" y="525" key="com.intellij.ide.util.TipDialog/0.23.2560.1340@0.23.2560.1340" timestamp="1590516877362" />
-    <state x="584" y="526" key="com.intellij.ide.util.TipDialog/0.23.2560.1342@0.23.2560.1342" timestamp="1590017606260" />
-    <state x="523" y="319" width="670" height="676" key="search.everywhere.popup" timestamp="1590624002940">
-      <screen x="0" y="23" width="2560" height="1340" />
-    </state>
-    <state x="523" y="319" width="670" height="676" key="search.everywhere.popup/0.23.2560.1340@0.23.2560.1340" timestamp="1590624002940" />
   </component>
 </project>

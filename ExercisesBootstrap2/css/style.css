@@ -22,10 +22,6 @@ font-family: 'Muli', sans-serif;
 {
     background-color:darkseagreen;
 }
-.fondphoto
-{
-    height: 20rem;
-}
 
 
 header
@@ -53,6 +49,7 @@ h3
     font-size: 4rem;
     font-weight: 100;
     text-align: center;
+    margin-bottom: 3rem;
 }
 
 h2
@@ -98,6 +95,7 @@ hr{
     font-family: 'Muli', sans-serif;
     font-size: 1rem;
     font-weight: 100;
+    margin-bottom: 1rem;
 }
 
 .fas
