@@ -42,6 +42,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -53,11 +54,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1590625994264</updated>
-      <workItem from="1590625995676" duration="3353000" />
+      <workItem from="1590625995676" duration="20879000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="859" y="395" key="SettingsEditor" timestamp="1591180029934">
+      <screen x="0" y="23" width="2560" height="1340" />
+    </state>
+    <state x="859" y="395" key="SettingsEditor/0.23.2560.1340@0.23.2560.1340" timestamp="1591180029934" />
   </component>
 </project>

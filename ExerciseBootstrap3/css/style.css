@@ -1,0 +1,36 @@
+/* Style.css */
+/* Programmé par Elaine Giguere */
+/* Le 9 juin 2020 */
+
+@font-face
+{
+    font-family: 'Muli', sans-serif;
+}
+
+@font-face {
+    font-family: 'Seaweed Script', cursive;
+}
+i
+{
+    color:gray;
+}
+
+h1
+{
+    font-family: Seaweed Script;
+    font-size: 4rem;
+    color: #3a3937;
+}
+.navbar
+{
+    background-color: rgba(209, 255, 250, 0.59);
+    font-family: 'Muli', sans-serif;
+    font-size: 1.5rem;
+    color: #3a3937;
+    font-variant-caps: small-caps;
+}
+
+.blanc
+{
+    color:white;
+}
