@@ -1,0 +1,63 @@
+/* Style.css */
+/* Programmé par Elaine Giguere */
+/* Le 15 juin 2020 */
+
+html,body
+{
+    margin:0; height:100%;
+}
+
+.zone1 {
+
+    /* L’image du Parallax */
+    background-image: url("../media/coquelicot_1.jpg");
+
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.zone3 {
+
+    /* L’image du Parallax */
+    background-image: url("../media/mur.jpg");
+
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+.zone4 {
+
+    /* L’image du Parallax */
+    background-image: url("../media/coquelicot_2.jpg");
+
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+.title
+{
+    Background-color: rgba(0, 0, 0, 0.63);
+}
+
+.subtitle
+{
+    background-color:rgba(0, 0, 0, 0.63);
+    margin-top: 20rem;
+}
+
+img
+{
+    display:block;
+    margin:auto;
+}
