@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!-- index.html -->
+<!-- Par Elaine Giguere -->
+<!-- Le 17-05-2020 -->
+Créez un nouveau projet nommé Formulaires :
+Partie 1 :
+1. Créez une nouvelle page Web nommée FormulaireEnvoye.html.
+a. Cette page affichera un court texte indiquant que les données du formulaire ont été envoyées
+avec succès.
+b. Sous le texte précédent, ajoutez un bouton Bootstrap (formulaire avec un bouton) pour revenir à
+la page index.html.
+c. Utilisez la fonctionnalité form action (diapositive 14)
+Suite de l’exercice à la page suivante...
+
+Partie 2 :
+a. Dans une nouvelle page index.html, créez un formulaire vertical qui saisira les informations
+suivantes :
+a. Nom (court texte)
+b. Prénom (court texte)
+c. Sujet de la demande d’aide (liste déroulante présentant les différents modules étudiés,
+HTML, CSS, Bootstrap, Positionnement des divisions, etc.)
+d. Question (texte long)
+e. Priorité (boutons radio offrant les options Urgent, Important, Peut attendre)
+f. Bouton Effacer (reset)
+g. Bouton Envoyer, le formulaire doit diriger l’utilisateur vers la page FormulaireEnvoye.html.
+<html lang="fr-ca">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-with, initial-scale=1, shrink-to-fit=no">
+    <title>Formulaire1</title>
+    <link rel="stylesheet" href="bootstrap-4.5.0-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Muli:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+        <div class="container">
+            <div class="row align-items-center succes">
+                <div class="col-12 text-center">
+                    <h1>Félicitation!</h1>
+                    <p>Les données du formulaire ont été envoyées
+                        avec succès</p>
+                    <form action="index.html/">
+                        <input type="submit" value="Retour à l'accueil"/>
+                    </form>
+                </div>
+            </div>
+        </div>
+</body>
+</html>

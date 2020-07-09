@@ -1,0 +1,19 @@
+/* Style.css */
+/* Programmé par Elaine Giguere */
+/* Le 17 juin 2020 */
+
+.succes
+{
+    background-image:url(../media/happy.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    margin: auto;
+    height:60rem;
+}
+
+.btn{
+    background-color: #20c997;
+    border-color: #0c5460;
+
+}

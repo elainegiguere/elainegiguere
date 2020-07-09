@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!-- index.html -->
+<!-- Par Elaine Giguere -->
+<!-- Le 17-05-2020 -->
+
+<html lang="fr-ca">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-with, initial-scale=1, shrink-to-fit=no">
+    <title>Formulaire1</title>
+    <link rel="stylesheet" href="bootstrap-4.5.0-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Muli:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <form action="formulaireEnvoye.html" target="_blank">
+
+        <div class="container">
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="prenom">Prénom</label>
+                    <input type="text" class="form-control" id="prenom" placeholder="Prenom">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="Nom">Nom</label>
+                    <input type="text" class="form-control" id="nom" placeholder="Nom">
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="demandeinfo">À quel sujet demandez-vous de l'information</label>
+                    <select id="demandeinfo" class="form-control">
+                        <option selected>sujet</option>
+                        <option>HTML</option>
+                        <option>CSS</option>
+                        <option>Bootstrap</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Donner nous plus de détails</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+
+            <div class="form-check">
+                <label for="demandeinfo">Priorité</label>
+                <br>
+
+                <input type="checkbox" class="form-check-input" id="check1">
+                <label class="form-check-label" for="check1">urgent</label>
+                <br>
+                <input type="checkbox" class="form-check-input" id="check2">
+                <label class="form-check-label" for="check2">important</label>
+                <br>
+                <input type="checkbox" class="form-check-input" id="check3">
+                <label class="form-check-label" for="check3">important</label>
+            </div>
+<hr>
+            <button type="reset" class="btn btn-primary">effacer</button>
+
+            <button type="submit" class="btn btn-primary">soumettre</button>
+
+        </div>
+
+
+
+</form>
+
+</body>
+</html>

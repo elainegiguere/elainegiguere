@@ -1,0 +1,115 @@
+/* Style.css */
+/* Programmé par Elaine Giguere */
+/* Le 2 juillet 2020 */
+
+@font-face
+{
+    font-family: 'Playfair Display';
+}
+
+@font-face {
+    font-family: 'Lora';
+}
+html,body
+{
+    margin:0; height:100%;
+}
+
+.navbar
+{
+    background-color: rgba(2, 2, 2, 0.91);
+    font-family: 'Lora' ;
+    font-size: 1rem;
+    color: #fff5e2;
+}
+
+
+ul li a
+{
+    font-family: 'Lora';
+    font-size: 1rem;
+    color: #fff5e2;
+
+
+}
+
+.headerP1 {
+
+    /* L’image du Parallax */
+    background-image: url("../media/cover.jpg");
+    height: 1000px;
+
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.sec2p1{
+    background-image: url("../media/ginko.png");
+
+
+
+}
+
+h1 {
+    font-family: 'Playfair Display';
+    font-weight: bold;
+    font-size: 4rem;
+    color:#DBA057;
+}
+
+h2 {
+    font-family: 'Playfair Display';
+    font-weight: bold;
+    font-size: 3rem;
+    color:#DBA057;
+}
+
+.titre1{
+    Background-color: rgba(0, 0, 0, 0.63);
+    margin-top:20rem;
+    margin-bottom: 15rem;
+}
+
+.titre2{
+    background-color:rgba(0, 0, 0, 0.63);
+    margin-top: 5rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    padding-left: 5rem;
+}
+
+.titresec2p1{
+    Background-color: black;
+}
+
+h4{
+    font-family: 'Lora';
+    font-weight:bold;
+    font-size: 1.5rem;
+    color: #020202;
+}
+
+i{
+    font-size: 5rem;
+    padding-bottom: 1rem;
+}
+p{
+    font-family:'Lora';
+    font-weight: normal;
+    color: black;
+}
+.titrep1sec3{
+    padding-bottom: 2rem;
+}
+
+.footer{
+    background-color: black;
+}
+
+.white{
+    color:#fff5e2;
+}

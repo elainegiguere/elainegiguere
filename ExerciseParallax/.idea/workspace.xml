@@ -42,6 +42,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -53,11 +54,26 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1592268612267</updated>
-      <workItem from="1592268615488" duration="13425000" />
+      <workItem from="1592268615488" duration="18401000" />
+      <workItem from="1592848583792" duration="11785000" />
+      <workItem from="1593794936803" duration="388000" />
+      <workItem from="1593800517545" duration="2897000" />
+      <workItem from="1594160562979" duration="2881000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="978" y="333" key="SettingsEditor" timestamp="1592915504028">
+      <screen x="0" y="23" width="2560" height="1347" />
+    </state>
+    <state x="978" y="333" key="SettingsEditor/0.23.2560.1347@0.23.2560.1347" timestamp="1592915504028" />
+    <state x="987" y="527" key="com.intellij.ide.util.TipDialog" timestamp="1593803309629">
+      <screen x="0" y="23" width="2560" height="1348" />
+    </state>
+    <state x="987" y="526" key="com.intellij.ide.util.TipDialog/0.23.2560.1342@0.23.2560.1342" timestamp="1592848593034" />
+    <state x="987" y="527" key="com.intellij.ide.util.TipDialog/0.23.2560.1348@0.23.2560.1348" timestamp="1593803309629" />
   </component>
 </project>

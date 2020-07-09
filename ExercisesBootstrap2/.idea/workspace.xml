@@ -34,7 +34,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -43,6 +43,11 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$USER_HOME$/Downloads" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -57,7 +62,8 @@
       <workItem from="1590017602441" duration="19529000" />
       <workItem from="1590516876513" duration="31652000" />
       <workItem from="1591357368181" duration="8484000" />
-      <workItem from="1591819020461" duration="8388000" />
+      <workItem from="1591819020461" duration="10107000" />
+      <workItem from="1592848599489" duration="10093000" />
     </task>
     <servers />
   </component>
@@ -69,10 +75,12 @@
       <screen x="0" y="23" width="2560" height="1340" />
     </state>
     <state x="764" y="489" key="#com.intellij.fileTypes.FileTypeChooser/0.23.2560.1340@0.23.2560.1340" timestamp="1590440428401" />
-    <state x="360" y="312" key="SettingsEditor" timestamp="1590623129961">
-      <screen x="0" y="23" width="2560" height="1340" />
+    <state x="360" y="315" key="SettingsEditor" timestamp="1592928367595">
+      <screen x="0" y="23" width="2560" height="1353" />
     </state>
     <state x="360" y="312" key="SettingsEditor/0.23.2560.1340@0.23.2560.1340" timestamp="1590623129961" />
+    <state x="360" y="314" key="SettingsEditor/0.23.2560.1350@0.23.2560.1350" timestamp="1592925125783" />
+    <state x="360" y="315" key="SettingsEditor/0.23.2560.1353@0.23.2560.1353" timestamp="1592928367595" />
     <state x="584" y="525" key="com.intellij.ide.util.TipDialog" timestamp="1590516877362">
       <screen x="0" y="23" width="2560" height="1340" />
     </state>

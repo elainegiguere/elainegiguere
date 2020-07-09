@@ -18,7 +18,11 @@ html,body
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+.zone2
+{
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+}
 .zone3 {
 
     /* L’image du Parallax */
@@ -30,6 +34,8 @@ html,body
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
+    margin-top: 8rem;
+
 }
 
 .zone4 {
@@ -48,12 +54,16 @@ html,body
 .title
 {
     Background-color: rgba(0, 0, 0, 0.63);
+    margin-top:30rem;
+    margin-bottom: 15rem;
 }
 
 .subtitle
 {
     background-color:rgba(0, 0, 0, 0.63);
     margin-top: 20rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
 }
 
 img
@@ -61,3 +71,16 @@ img
     display:block;
     margin:auto;
 }
+
+i
+{
+    font-size: 4rem;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+
+.gris
+{
+    background-color: gray;
+}
+
