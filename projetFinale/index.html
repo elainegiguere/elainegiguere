@@ -18,7 +18,7 @@
 <body>
 
 <!-- Navigation -->
-<nav class="navbar navbar-expand-sm px-5">
+<nav class="navbar position-sticky navbar-expand-sm px-5">
 
     <a class="navbar-brand" href="index.html">
         <img src="media/logo1.png" width="100" height="100" class="d-inline-block align-top logo" alt="logo">
@@ -26,23 +26,13 @@
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <i class="fas fa-bars"></i>
+        <i class="fas fa-bars hamburger"></i>
     </button>
 
     <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
+        <ul class="navbar-nav ml-auto">
             <li class="nav-item"><a class="nav-link" href="index.html">accueil <span class="sr-only">(current)</span></a></li>
-
-            <!--Dropdown link-->
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="portfolio.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">portfolio</a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="portfolio.html">Design WEB</a>
-                    <a class="dropdown-item" href="portfolio.html">Identité visuelle</a>
-                    <a class="dropdown-item" href="portfolio.html">Imprimé</a>
-                </div>
-            </li>
-
+            <li class="nav-item"><a class="nav-link" href="portfolio.html">portfolio</a></li>
             <li class="nav-item"><a class="nav-link" href="nouvelles.html">nouvelles</a></li>
         </ul>
     </div>
@@ -53,16 +43,13 @@
     </ul>
 </nav>
 
+<!-- headerP1 -->
+
 <header>
-    <div class="container-fluid parallax headerP1">
-        <div class="row align-items-center">
-            <div class="col-6 offset-6 text-center titre1">
+    <div class="container-fluid parallax headerp1">
+        <div class="row align-items-center p-0">
+            <div class="col-md-6 col-sm-12 titre1 pl-3">
                 <h1>Designer graphique</h1>
-            </div>
-        </div>
-        <div class="row align-items-center">
-            <div class="col-10 text-left titre2">
-                <h2>Création de visuels, rehausement d'image et publicité.</h2>
             </div>
         </div>
     </div>
@@ -79,19 +66,19 @@
     </div>
 
     <div class="row align items center p-5">
-        <div class="col-4 text-center p-5">
+        <div class="col-md-4 col-sm-12 text-center p-5">
             <i class="fas fa-tv"></i>
             <h4>Design web</h4>
             <p class="noir">Je vous propose des visuels actuels, stylisés et unique pour vous démarquer sur le WEB.</p>
         </div>
 
-        <div class="col-4 text-center p-5">
+        <div class="col-md-4 col-sm-12 text-center p-5">
             <i class="far fa-eye"></i>
             <h4>Identité visuelle</h4>
             <p class="noir">Je définis les éléments graphiques clés pour représenter la raison et l'âme de votre entreprise.</p>
         </div>
 
-        <div class="col-4 text-center p-5">
+        <div class="col-md-4 col-sm-12 text-center p-5">
             <i class="fas fa-book-open"></i>
             <h4>Design Imprimé</h4>
             <p class="noir">L'image que vous projetez doit être percutante à tout les niveaux et déterminer qui vous êtes. Les écrits restent!</p>
@@ -102,37 +89,60 @@
 
 <!-- section3p1 -->
 
-<div class="container-fluid parallax sec3p1">
-    <div class="row align-items-center h-100">
-        <div class="col-6 text-justify pr-5 pl-5">
+<div class="container-fluid p-0 sec3p1">
+    <div class="row no-gutters align-items-center h-100 ">
+        <div class="col-md-6 col-sm-12 text-justify pr-5 pl-5">
             <h1 class="titrep1sec3">À propos</h1>
             <p>À travers mon parcours varié et singulier, je suis constamment au service de mettre le contenu de tout genre de propos en image. J’aime me donner comme mission de facilité la compréhension d’idées avec un support visuel réfléchi et efficace. Je contribue à votre univers offrant mon écoute et mon support afin de renforcer votre image et vous donner la meilleure visibilité .</p>
         </div>
-        <div class="col-6">
-            <img src="media/_VDL0078.JPG" alt="elaine" title="elaine"/>
+        <div class="col-md-6 col-sm-12-order-first">
+            <img class="img-fluid" src="media/elaine.jpg" alt="elaine" title="elaine"/>
         </div>
     </div>
-</div>
+</div >
+
+<!-- section4p1 -->
+
+<div class="container-fluid p-0 sec4p1">
+    <div class="row no-gutters align-items-center">
+        <div class="col-md-6 col-sm-12 no-gutters">
+            <img class="img-fluid" src="media/crayons.jpg" alt="crayons" title="crayons"/>
+        </div>
+        <div class="col-md-6 col-sm-12-order-first text-justify pr-5 pl-5">
+            <h1 class="titrep1sec4">Pourquoi un graphiste</h1>
+            <p>Le graphiste vous permettra d’améliorer votre image, d'avoir accès à des conseils qui tiennent compte des contraintes techniques, des tendances dans le domaine. Une image de qualité fait la différence sur le marché. Faites-vous remarquez pour les bonnes raisons!
+        </div>
+    </div>
+</div >
 
 <!-- Footer -->
+
 <div>
     <div class="container-fluid footer">
-        <div class="row align-items-center">
-            <div class="col-md-3 text-center">
-                <img src="media/logo1.png" alt="Élaine" title="Élaine"/>
+        <div class="row align-items-center pt-2">
+            <div class="col-md-3 col-sm-12 text-center">
+                <img src="media/logo1.png" width="100" height="100" alt="Élaine" title="Élaine"/>
             </div>
-            <div class="col-md-6 text-center">
-                <p class="white">Accueil</p>
-                <p class="white">Portfolio</p>
-                <p class="white">Nouvelles</p>
+            <div class="col-md-6 col-sm-12 text-center">
+                <div class="row align-items-center">
+                    <div class="col-md-4 col-sm-4 text-center">
+                        <p class="white">Accueil</p>
+                    </div>
+                    <div class="col-md-4 col-sm-4 text-center">
+                        <p class="white">Portfolio</p>
+                    </div>
+                    <div class="col-md-4 col-sm-4 text-center">
+                        <p class="white">Nouvelles</p>
+                    </div>
+                </div>
             </div>
             <div class=" col-md-3 text-center">
-                <button type="button" class="btn btn-outline-light">Inscrivez-vous à l'infolettre</button>
+                <button type="button" class="btn btn-outline-light p-2" ><p class="white">Inscrivez-vous à l'infolettre</p></button>
             </div>
         </div>
             <div class="row align-items-center">
                 <div class="col-md-12 text-center">
-                    <p>© Élaine Giguère, Designer graphique.Tous droits réservés</p>
+                    <p class="small white"> © Élaine Giguère, Designer graphique.Tous droits réservés</p>
                 </div>
         </div>
     </div>

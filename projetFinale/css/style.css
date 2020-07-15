@@ -14,6 +14,19 @@ html,body
 {
     margin:0; height:100%;
 }
+-->   /* Cellulaires
+@media only screen and (max-width: 480px){
+    .headerp1{
+        background-image: url("../media/bbyoda.jpg");
+        height: 400px;
+}
+
+    /* TABLETTES
+@media screen and (min-width: 481px) and (max-width: 1199px) {
+    .headerp1{
+        background-image: url("../media/designertablette.jpeg");
+        height: 600px;
+}*/
 
 .navbar
 {
@@ -22,7 +35,14 @@ html,body
     font-size: 1rem;
     color: #fff5e2;
 }
-
+.position-sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.fab{
+    font-size: 1.5rem;
+}
 
 ul li a
 {
@@ -30,48 +50,84 @@ ul li a
     font-size: 1rem;
     color: #fff5e2;
 
-
 }
 
-.headerP1 {
-
+.headerp1{
     /* L’image du Parallax */
     background-image: url("../media/cover.jpg");
-    height: 1000px;
+    height: 700px;
 
     /* Création de l’effet */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 
-.sec2p1{
+.headerp2 {
+    /* L’image du Parallax */
+    background-image: url("../media/coverPortefolio.jpg");
+    height: 700px;
+
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.headerP3{
+    /* L’image du Parallax */
+    background-image: url("../media/nouvelles.jpg");
+    height: 700px;
+
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sec2p1 {
     background-image: url("../media/ginko.png");
+}
+.sec2p2 {
+    background-image: url("../media/BgP2.jpg");
+    color:#fff5e2;
+}
 
-
-
+.sec4p2{
+    background-image: url("../media/ginko.png");
+}
+.pbeige{
+    color:#fff5e2;
 }
 
 h1 {
     font-family: 'Playfair Display';
     font-weight: bold;
-    font-size: 4rem;
+    font-size: 8vw;
     color:#DBA057;
+    text-align: left;
 }
 
 h2 {
     font-family: 'Playfair Display';
     font-weight: bold;
-    font-size: 3rem;
+    font-size: 6vw;
     color:#DBA057;
+}
+
+h4{
+    font-family: 'Lora';
+    font-weight:bold;
+    font-size: 1.5rem;
+    color: #020202;
 }
 
 .titre1{
     Background-color: rgba(0, 0, 0, 0.63);
     margin-top:20rem;
-    margin-bottom: 15rem;
 }
 
 .titre2{
@@ -86,12 +142,6 @@ h2 {
     Background-color: black;
 }
 
-h4{
-    font-family: 'Lora';
-    font-weight:bold;
-    font-size: 1.5rem;
-    color: #020202;
-}
 
 i{
     font-size: 5rem;
@@ -112,4 +162,33 @@ p{
 
 .white{
     color:#fff5e2;
+    margin:0;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+.small{
+    size: 1rem;
+}
+
+.portfolio{
+    background-image:url("../media/portefolioBaboche.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.jumbotron{
+    background-image:url("../media/jumbotron.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;}
+
+.hamburger{
+    color:#fff5e2;
+    font-size: 2rem;
 }

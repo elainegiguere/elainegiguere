@@ -15,8 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -57,7 +57,8 @@
       <workItem from="1593712893157" duration="968000" />
       <workItem from="1593794936652" duration="2026000" />
       <workItem from="1593800514516" duration="10296000" />
-      <workItem from="1594160562979" duration="12197000" />
+      <workItem from="1594160562979" duration="46298000" />
+      <workItem from="1594758728139" duration="25958000" />
     </task>
     <servers />
   </component>
@@ -65,9 +66,11 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="745" y="276" key="SettingsEditor" timestamp="1594250083803">
-      <screen x="0" y="23" width="2560" height="1348" />
+    <state x="745" y="276" key="SettingsEditor" timestamp="1594827493649">
+      <screen x="0" y="23" width="2560" height="1351" />
     </state>
-    <state x="745" y="276" key="SettingsEditor/0.23.2560.1348@0.23.2560.1348" timestamp="1594250083803" />
+    <state x="745" y="276" key="SettingsEditor/0.23.2560.1348@0.23.2560.1348" timestamp="1594781020348" />
+    <state x="745" y="276" key="SettingsEditor/0.23.2560.1350@0.23.2560.1350" timestamp="1594816164653" />
+    <state x="745" y="276" key="SettingsEditor/0.23.2560.1351@0.23.2560.1351" timestamp="1594827493649" />
   </component>
 </project>
