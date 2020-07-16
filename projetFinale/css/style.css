@@ -204,7 +204,7 @@ p{
 @media only screen and (max-width: 480px){
     .headerp1 {
         background-image: url("../media/bbyoda.jpg");
-        height: 400px;
+        height: 800px;
     }
 }
 
@@ -213,7 +213,7 @@ p{
     .headerp1
     {
         background-image: url("../media/designertablette.jpeg");
-        height: 600px;
+        height: 800px;
     }
 }
 @media only screen and (min-width: 320px) and (max-width: 768px ) {
