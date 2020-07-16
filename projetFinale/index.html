@@ -137,7 +137,38 @@
                 </div>
             </div>
             <div class=" col-md-3 text-center">
-                <button type="button" class="btn btn-outline-light p-2" ><p class="white">Inscrivez-vous à l'infolettre</p></button>
+                <button type="button" class="btn btn-outline-light p-2"data-toggle="modal" data-target=".bd-example-modal-lg" ><p class="white">Inscrivez-vous à l'infolettre</p></button>
+                <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <!-- Footer formulaire infolettre-->
+
+                            <form action="sentForm.html" target="_blank">
+                                <div class="container p-5">
+                                    <div class="form-row">
+                                        <div class="form-group col-md-4">
+                                            <label for="prenom">Prénom</label>
+                                            <input type="text" class="form-control" id="prenom" placeholder="Prenom">
+                                        </div>
+                                        <div class="form-group col-md-4">
+                                            <label for="Nom">Nom</label>
+                                            <input type="text" class="form-control" id="nom" placeholder="Nom">
+                                        </div>
+                                        <div class="form-group col-md-4">
+                                            <label for="email">Courriel</label>
+                                            <input type="text" class="form-control" id="email" placeholder="Courriel">
+                                        </div>
+                                    </div>
+
+                                    <hr>
+                                    <button type="reset" class="btn btn-outline-dark p-2">effacer</button>
+                                    <button type="submit" class="btn btn-outline-dark p-2">soumettre</button>
+                                </div>
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
             <div class="row align-items-center">

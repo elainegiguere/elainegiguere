@@ -192,3 +192,28 @@ p{
     color:#fff5e2;
     font-size: 2rem;
 }
+
+.succes
+{
+    background-image:url(../media/happy.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    margin: auto;
+    height:60rem;
+}
+
+ /* Cellulaires */
+@media only screen and (max-width: 480px){
+    .headerp1{
+        background-image: url("../media/bbyoda.jpg");
+        height: 400px;
+}
+
+    /* TABLETTES */
+@media screen and (min-width: 481px) and (max-width: 1199px) {
+    .headerp1 {
+        background-image: url("../media/designertablette.jpeg");
+        height: 600px;
+    }
+}
