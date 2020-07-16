@@ -24,32 +24,22 @@
         <img src="media/logo1.png" width="100" height="100" class="d-inline-block align-top logo" alt="logo">
     </a>
 
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <i class="fas fa-bars"></i>
+        <i class="fas fa-bars  hamburger"></i>
     </button>
 
     <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ml-auto">
-            <li class="nav-item"><a class="nav-link" href="index.html">accueil <span class="sr-only">(current)</span></a></li>
-
-            <!--Dropdown link-->
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="portfolio.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">portfolio</a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="portfolio.html">Design WEB</a>
-                    <a class="dropdown-item" href="portfolio.html">Identité visuelle</a>
-                    <a class="dropdown-item" href="portfolio.html">Imprimé</a>
-                </div>
-            </li>
-
-            <li class="nav-item"><a class="nav-link" href="nouvelles.html">nouvelles</a></li>
+        <ul class="navbar-nav ml-auto list-group-horizontal">
+            <li class="nav-item p-2"><a class="nav-link" href="index.html">accueil <span class="sr-only">(current)</span></a></li>
+            <li class="nav-item p-2"><a class="nav-link" href="portfolio.html">portfolio</a></li>
+            <li class="nav-item p-2"><a class="nav-link" href="nouvelles.html">nouvelles</a></li>
         </ul>
     </div>
-    <ul class="navbar-nav">
-        <li class="nav-item"><a class="nav-link " href="https://www.behance.net/Elaine_Giguere" target="_blank"><i class="fab fa-behance-square"></i></a></li>
-        <li class="nav-item"><a class="nav-link" href="https://www.facebook.com/elaine.giguere.5?locale=fr_FR" target="_blank"><i class="fab fa-facebook"></i></a></li>
-        <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/%C3%A9laine-gigu%C3%A8re-a0778b5b/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+    <ul class="navbar-nav list-group-horizontal">
+        <li class="nav-item p-1"><a class="nav-link " href="https://www.behance.net/Elaine_Giguere" target="_blank"><i class="fab fa-behance-square"></i></a></li>
+        <li class="nav-item p-1"><a class="nav-link" href="https://www.facebook.com/elaine.giguere.5?locale=fr_FR" target="_blank"><i class="fab fa-facebook"></i></a></li>
+        <li class="nav-item p-1"><a class="nav-link" href="https://www.linkedin.com/in/%C3%A9laine-gigu%C3%A8re-a0778b5b/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
     </ul>
 </nav>
 
@@ -84,15 +74,16 @@
 <!-- section3p3 -->
 <div class="container-fluid p-0 sec3p3">
     <div class="row no-gutters align-items-center">
-        <div class="col-md-6 col-sm-12 no-gutters">
+        <div class="col-md-6 col-sm-12 col-xs-12 order-xs-last order-sm-last order-md-first no-gutters">
             <img class="img-fluid" src="media/nouvelle1.jpg" alt="ombre" title="ombre"/>
         </div>
-        <div class="col-md-6 col-sm-12 order-first text-justify pr-5 pl-5">
+        <div class="col-md-6 col-sm-12 col-xs-12 order-xs-fist order-sm-first order-md-last text-justify pr-5 pl-5">
             <h1 class="titrep1sec4">Variation sur les ombres</h1>
             <p>Nullam pulvinar feugiat est at laoreet. Proin quis arcu arcu. Mauris sodales mauris sed gravida sollicitudin. Aliquam rhoncus, risus ut venenatis iaculis, ex velit mollis diam, in porta lacus arcu a metus. Vestibulum facilisis nibh eu mauris condimentum laoreet. Etiam fringilla eu urna id feugiat. Cras eget elit auctor, sollicitudin nunc at, accumsan massa. Nulla facilisi. Duis orci odio, fermentum dapibus dui sed, rhoncus tristique nisl. Duis bibendum nunc sit amet luctus faucibus. Duis viverra pretium velit, eget sagittis dolor porttitor eu.</p>
             <button type="button" class="btn btn-outline-dark m-2"><p class="m-0">En savoir plus</p></button>
         </div>
-</div >
+    </div>
+</div>
 
 <!-- section4p3 -->
 <div class="jumbotron jumbotron-fluid p-4">
@@ -117,40 +108,82 @@
         </div>
 </div>
 
-<!-- Footer -->
-<div>
-    <div class="container-fluid footer">
-        <div class="row align-items-center">
-            <div class="col-md-3 text-center">
-                <img src="media/logo1.png" alt="Élaine" title="Élaine"/>
-            </div>
-            <div class="col-md-6 text-center">
-                <div class="row align-items-center">
-                    <div class="col-md-4 text-center">
-                        <p class="white">Accueil</p>
+    <!-- Footer -->
+
+    <div>
+        <div class="container-fluid footer">
+            <div class="row align-items-center pt-2">
+                <div class="col-md-3 col-sm-12 text-center">
+                    <img src="media/logo1.png" width="100" height="100" alt="Élaine" title="Élaine"/>
+                </div>
+                <div class="col-md-6 col-sm-12 text-center">
+                    <div class="row align-items-center">
+                        <div class="col-4 text-center">
+                            <p class="white">Accueil</p>
+                        </div>
+                        <div class="col-4 text-center">
+                            <p class="white">Portfolio</p>
+                        </div>
+                        <div class="col-4 text-center">
+                            <p class="white">Nouvelles</p>
+                        </div>
                     </div>
-                    <div class="col-md-4 text-center">
-                        <p class="white">Portfolio</p>
+                </div>
+                <div class=" col-md-3 text-center">
+                    <div class="row align items-right">
+                        <div class="col-12 text-center">
+                            <ul class="navbar-nav list-group-horizontal">
+                                <li class="nav-item"><a class="nav-link " href="https://www.behance.net/Elaine_Giguere" target="_blank"><i class="fab fa-behance-square px-3"></i></a></li>
+                                <li class="nav-item"><a class="nav-link" href="https://www.facebook.com/elaine.giguere.5?locale=fr_FR" target="_blank"><i class="fab fa-facebook px-3"></i></a></li>
+                                <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/%C3%A9laine-gigu%C3%A8re-a0778b5b/" target="_blank"><i class="fab fa-linkedin px-3"></i></a></li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="col-md-4 text-center">
-                        <p class="white">Nouvelles</p>
+                    <button type="button" class="btn btn-outline-light m-3 p-1"data-toggle="modal" data-target=".bd-example-modal-lg" ><p class="white">Inscrivez-vous à l'infolettre</p></button>
+                    <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+
+                                <!-- Footer formulaire infolettre-->
+
+                                <form action="sentForm.html" target="_blank">
+                                    <div class="container p-5">
+                                        <div class="form-row">
+                                            <div class="form-group col-md-4">
+                                                <label for="prenom">Prénom</label>
+                                                <input type="text" class="form-control" id="prenom" placeholder="Prenom">
+                                            </div>
+                                            <div class="form-group col-md-4">
+                                                <label for="Nom">Nom</label>
+                                                <input type="text" class="form-control" id="nom" placeholder="Nom">
+                                            </div>
+                                            <div class="form-group col-md-4">
+                                                <label for="email">Courriel</label>
+                                                <input type="text" class="form-control" id="email" placeholder="Courriel">
+                                            </div>
+                                        </div>
+
+                                        <hr>
+                                        <button type="reset" class="btn btn-outline-dark p-2">effacer</button>
+                                        <button type="submit" class="btn btn-outline-dark p-2">soumettre</button>
+                                    </div>
+                                </form>
+
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class=" col-md-3 text-center">
-                <button type="button" class="btn btn-outline-light"><p class="white">Inscrivez-vous à l'infolettre</p></button>
-            </div>
-        </div>
-        <div class="row align-items-center">
-            <div class="col-md-12 text-center">
-                <p class="small white"> © Élaine Giguère, Designer graphique.Tous droits réservés</p>
+            <div class="row align-items-center">
+                <div class="col-md-12 text-center">
+                    <p class="small white"> © Élaine Giguère, Designer graphique.Tous droits réservés</p>
+                </div>
             </div>
         </div>
     </div>
-</div>
 
-<script src="https://kit.fontawesome.com/a46d75ba7a.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="bootstrap-4.5.0-dist/js/bootstrap.js"></script>
+    <script src="https://kit.fontawesome.com/a46d75ba7a.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="bootstrap-4.5.0-dist/js/bootstrap.js"></script>
 </body>
-</html>
+</html></html>

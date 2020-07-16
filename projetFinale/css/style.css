@@ -66,7 +66,7 @@ ul li a
 
 .headerp2 {
     /* L’image du Parallax */
-    background-image: url("../media/coverPortefolio.jpg");
+    background-image: url("../media/coverPortefolio.jpeg");
     height: 700px;
 
     /* Création de l’effet */
@@ -125,6 +125,13 @@ h4{
     color: #020202;
 }
 
+h5{
+    font-family: 'Lora';
+    font-weight:bold;
+    font-size: 1rem;
+    color: #020202;
+}
+
 .titre1{
     Background-color: rgba(0, 0, 0, 0.63);
     margin-top:20rem;
@@ -141,7 +148,9 @@ h4{
 .titresec2p1{
     Background-color: black;
 }
-
+.titrep1sec3{
+    color: black;
+}
 
 i{
     font-size: 5rem;
@@ -156,6 +165,10 @@ p{
     padding-bottom: 2rem;
 }
 
+.titrep1sec4{
+    color:black;
+    padding-bottom: 2rem;
+}
 .footer{
     background-color: black;
 }
@@ -191,6 +204,7 @@ p{
 .hamburger{
     color:#fff5e2;
     font-size: 2rem;
+    outline: none;
 }
 
 .succes
@@ -217,5 +231,11 @@ p{
     {
         background-image: url("../media/designertablette.jpeg");
         height: 600px;
+    }
+}
+@media only screen and (min-width: 320px) and (max-width: 768px ) {
+    .crayon {
+        background-image: url("../media/bbyoda.jpg");
+        height: 400px;
     }
 }
