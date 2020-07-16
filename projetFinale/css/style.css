@@ -106,7 +106,7 @@ ul li a
 h1 {
     font-family: 'Playfair Display';
     font-weight: bold;
-    font-size: 8vw;
+    font-size: 4rem;
     color:#DBA057;
     text-align: left;
 }
@@ -114,7 +114,7 @@ h1 {
 h2 {
     font-family: 'Playfair Display';
     font-weight: bold;
-    font-size: 6vw;
+    font-size: 3rem;
     color:#DBA057;
 }
 
@@ -205,14 +205,16 @@ p{
 
  /* Cellulaires */
 @media only screen and (max-width: 480px){
-    .headerp1{
+    .headerp1 {
         background-image: url("../media/bbyoda.jpg");
         height: 400px;
+    }
 }
 
     /* TABLETTES */
 @media screen and (min-width: 481px) and (max-width: 1199px) {
-    .headerp1 {
+    .headerp1
+    {
         background-image: url("../media/designertablette.jpeg");
         height: 600px;
     }
