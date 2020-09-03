@@ -1,0 +1,76 @@
+/* Style.css */
+/* Programmé par Elaine Giguère */
+/* Le 28 août 2020 */
+
+@font-face {
+    font-family: 'Lora', serif;
+}
+
+@font-face {
+    font-family: 'Raleway', sans-serif;
+}
+
+body {font-family: 'Raleway', sans-serif;}
+
+
+/* Navigation secondaire */
+.navbar-sec {
+    width: 100%;
+    background-color: #ffffff;
+    overflow: auto;
+    justify-content: flex-end;
+}
+
+.navbar-sec a {
+    float: right;
+    padding: 12px;
+    color: #203147;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.navbar-sec a:hover {
+    background-color: #d7b277;
+}
+
+.active {
+    background-color: #86642e;
+}
+
+@media screen and (max-width: 500px) {
+    .navbar a {
+        float: none;
+        display: block;
+    }
+}
+
+/* Navigation principale */
+
+.navbar{
+    margin-top: 32px;
+    width: 100%;
+    background-color: #203147;
+    overflow: auto;
+    justify-content: flex-end;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+
+}
+
+li a {
+    float: right;
+    padding: 10px;
+    color: #d7b277;
+    text-decoration: none;
+    font-size: 1em;
+
+}
+/* Carousel accueil */
