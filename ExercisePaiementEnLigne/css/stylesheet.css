@@ -1,0 +1,46 @@
+/* Style.css */
+/* Programmé par Elaine Giguere */
+/* Le 2 juillet 2020 */
+
+
+@font-face
+{
+    font-family: 'Playfair Display';
+}
+
+@font-face {
+    font-family: 'Lora';
+}
+
+body{
+    background-image: url("../media/carottes.jpg");
+    background-repeat: repeat;
+}
+
+h1{
+    font-family: 'Lora';
+    font-size: 4em;
+    padding: 100px ;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h2{
+    font-family: 'Playfair Display';
+    font-size: 2em;
+    padding-bottom: 20px ;
+    text-transform: uppercase;
+
+}
+
+.img-fluid {
+    height: auto;
+    margin:auto;
+    width: 100%;
+    object-fit: cover;
+}
+
+.boutique{
+    background-color: white;
+    height: 1000px;
+}

@@ -34,7 +34,7 @@ let cartePokemon ={
     nomAttaque2: "Thundershock",
     degatsAttaque1: "Agility",
     degatsAttaque2: "Paralyzed"
-}
+};
 
 for (let cle in cartePokemon){
     document.write(cle.toString() + "<br>");

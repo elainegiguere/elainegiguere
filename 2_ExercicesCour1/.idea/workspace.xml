@@ -34,7 +34,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="/Applications/MAMP/htdocs" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -45,6 +45,10 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/js" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="/Applications/MAMP/htdocs" />
+      <recent name="$USER_HOME$/Desktop/_CalculDeSuperficie" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -63,7 +67,8 @@
       <workItem from="1597279914716" duration="3691000" />
       <workItem from="1597608043647" duration="23570000" />
       <workItem from="1598017223235" duration="14444000" />
-      <workItem from="1598913992256" duration="10933000" />
+      <workItem from="1598913992256" duration="45965000" />
+      <workItem from="1600727656762" duration="7018000" />
     </task>
     <servers />
   </component>
@@ -88,5 +93,21 @@
     </state>
     <state x="614" y="507" key="com.intellij.ide.util.TipDialog/0.23.2560.1340@0.23.2560.1340" timestamp="1596988164728" />
     <state x="614" y="508" key="com.intellij.ide.util.TipDialog/0.23.2560.1342@0.23.2560.1342" timestamp="1597608098608" />
+    <state x="1620" y="23" width="948" height="1323" key="dock-window-1" timestamp="1600738747807">
+      <screen x="0" y="23" width="2560" height="1351" />
+    </state>
+    <state x="1857" y="23" width="948" height="1323" key="dock-window-1/0.23.2560.1348@0.23.2560.1348" timestamp="1600738132482" />
+    <state x="1620" y="23" width="948" height="1323" key="dock-window-1/0.23.2560.1351@0.23.2560.1351" timestamp="1600738747807" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/js/Exercise_2_13.js</url>
+          <line>3</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

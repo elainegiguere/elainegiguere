@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-with, initial-scale=1, shrink-to-fit=no">
+    <title>Paiement en ligne</title>
+    <link rel="stylesheet" href="bootstrap-4.5.0-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,562;0,600;0,700;1,400;1,500;1,562;1,600;1,700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+</head>
+<body>
+
+<div class="container boutique">
+    <div class="row">
+        <div class="col-12">
+            <h1>Boutique en ligne</h1>
+        </div>
+    </div>
+
+
+
+        <div class="row">
+            <div class="col-md-6 ">
+                <img class="img-fluid" src="media/Lapin600x400.png" alt="lapin"/>
+            </div>
+
+
+            <div class="col-md-6">
+                <h2>Lapin de Garenne</h2>
+                <h3>Élevage des grands lapins de France</h3>
+                <p>Sous sa forme domestiquée l'espèce est commune un peu partout dans le monde, élevée dans des clapiers. Le lapin de garenne est l'espèce souche de tous les lapins domestiques, avec de nombreuses races et variétés obtenues par sélection, y compris des lapins nains.</p>
+                <h4>129,99$</h4>
+                <ul>
+                    <li>Son pelage est très doux</li>
+                    <li>Un caisse de carotte comprise à l'achat</li>
+                    <li>Ronge les fils internet</li>
+                    <li>Peut vivre avec d'autres animaux</li>
+                </ul>
+
+                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                    <input type="hidden" name="cmd" value="_xclick">
+                    <input type="hidden" name="business" value="jdcelaine@hotmail.com">
+                    <input type="hidden" name="lc" value="US">
+                    <input type="hidden" name="button_subtype" value="services">
+                    <input type="hidden" name="no_note" value="0">
+                    <input type="hidden" name="currency_code" value="USD">
+                    <input type="hidden" name="bn" value="PP-BuyNowBF:btn_buynowCC_LG.gif:NonHostedGuest">
+                    <input type="image" src="https://www.paypalobjects.com/fr_XC/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - la solution de paiement en ligne la plus simple et la plus sécurisée !">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/fr_XC/i/scr/pixel.gif" width="1" height="1">
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+
+<script src="https://kit.fontawesome.com/a46d75ba7a.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="bootstrap-4.5.0-dist/js/bootstrap.js"></script>
+</body>
+</html>
