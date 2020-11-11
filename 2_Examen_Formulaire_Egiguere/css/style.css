@@ -1,0 +1,53 @@
+/* Style.css */
+/* Programmé par Elaine Giguere */
+/* Le 30 septembre 2020 */
+
+
+body{
+    background-color: black;
+}
+
+h1{
+    font-size: 2em;
+    padding-bottom: 20px;
+    color: white;
+}
+
+h2{
+    font-size: 1em;
+    padding-top: 10px;
+    color: white;
+}
+
+.required{
+    color: red;
+}
+
+.nom{
+    padding-top: 20px;
+    margin-top: 50px;
+}
+
+.gris{
+    background-color: #1d2124;
+    padding:50px;
+}
+p{
+    font-size: 1em;
+    color:white;
+}
+label{
+    font-size: 0.8em;
+    color:white;
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+    padding-top: 10px;
+}
+
+.paypalBtn{
+    margin:auto;
+
+}

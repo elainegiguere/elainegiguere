@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<!--index.html-->
+<!--Par ÉlaineGiguère-->
+<!--30 septembre 2020-->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-with, initial-scale=1, shrink-to-fit=no">
+    <title>Chat pour adoption</title>
+    <link rel="stylesheet" href="bootstrap-4.5.0-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,562;0,600;0,700;1,400;1,500;1,562;1,600;1,700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+</head>
+<body>
+
+<div class="container boutique">
+    <div class="row">
+        <div class="col-12">
+            <h1>Chat pour adoption</h1>
+        </div>
+    </div>
+
+
+
+        <div class="row">
+            <div class="col-md-6 ">
+                <img class="img-fluid" src="media/chat.jpg" alt="lapin"/>
+            </div>
+
+
+            <div class="col-md-6">
+                <h2>Maine Coon</h2>
+                <h3>Emprunt à l'anglais Maine Coon, de Maine (État des États-Unis) et coon « raton laveur »</h3>
+                <p>Comme son nom l'indique, le Maine-Coon trouve ses origines dans l'état du Maine situé dans le Nord Est des Etats-Unis, près de la frontière Canadienne.Les habitants du Maine ont donné ce nom à leurs chats du fait des similitudes entre la queue annelée et touffue du raton laveur et celle des chats du Maine. Une légende parlait même de croisements entre les chats de ferme locaux et les ratons laveurs, jusqu'à ce que les sciences de la génétique viennent prouver l'impossibilité d'une telle union.</p>
+                <h4>129,99$</h4>
+                <ul>
+                    <li>Il pèse 25lbs</li>
+                    <li>Il déteste les enfants et la visite</li>
+                    <li>Il adore le steak</li>
+                    <li>Il à 1 an et demi</li>
+                </ul>
+
+                <p> Si vous êtes intéressez à adoptez cet animal veuillez remplir le formulaire ici-bas. Nous communiquerons avec vous d'ici 48h.</p>
+            </div>
+        </div>
+
+    <div class="row">
+        <div class="container">
+            <div class="col-12 m-5 p-2 ">
+
+                <label for="prenom">Prenom</label>
+                <input type="text" id="prenom" size="50" required>
+                <br>
+                <label for="age">âge</label>
+                <input type="number" id="age" max="99" min="1" required>
+                <br>
+                <label for="taille">Taille du chat</label>
+                <input type="text" id="taille" placeholder="30cm" required>
+                <br>
+                <label for="date naissance">Date de naissance</label>
+                <input type="date" id="date naissance" min="1900-01-01" max="2020-10-01"required>
+                <br>
+                <label for="checkbox1">Est-ce que votre chat est vacciné?</label>
+                <input type="checkbox" id="checkbox1">
+                <br>
+                <label for="radio1">Quel est la couleur du chat?</label>
+                    <input type="radio" id="radio1" name="1">noir</input>
+                    <input type="radio" id="radio2" name="1">blanc</input>
+                    <input type="radio" id="radio3" name="1">brun</input>
+                <br>
+                <label for="radio4">Est-ce un chat domestique ou non </label>
+                <input type="radio" id="radio4" name="2"> chat domestique </input>
+                <input type="radio" id="radio5" name="2"> chat de race </input>
+                <br>
+                <label for="lieuNaissance">lieu de naissance</label>
+                <input type="text" id="lieuNaissance" required>
+                <br>
+                <label for="photo">Veuillez joindre quelques photos</label>
+                <input type="file" id="photo" multiple required>
+                <br>
+                <label for="courriel">Courriel</label>
+                <input type="date" id="courriel" required>
+                <br>
+                <label for="telephone">téléphone</label>
+                <input type="tel" id="telephone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890" required>
+                <br>
+                <input type="submit" value="soumettre">
+            </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<script src="https://kit.fontawesome.com/a46d75ba7a.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="bootstrap-4.5.0-dist/js/bootstrap.js"></script>
+</body>
+</html>

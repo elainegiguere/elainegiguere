@@ -1,0 +1,360 @@
+/* Style.css */
+/* Programmé par Elaine Giguere */
+/* Le 28 oct 2020 */
+
+/*font-family: 'Titillium Web', sans-serif;*/
+/*font-family: 'Open Sans', sans-serif;*/
+
+:root {
+    --color-text-noir: #000000;
+    --color-text-blanc: #ffffff;
+    --color-bleu: #004cac;
+    --color-rouge: #C21522;
+    --color-vert: #47a01a;
+    --color-gris: #67737a;
+
+}
+
+/*var(--color-zone);*/
+
+@font-face {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+@font-face {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.body {
+    margin:0; height:100%;
+}
+
+.container-fluid {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+h1{
+    font-family: 'Titillium Web', sans-serif;
+    font-color: white;
+    font-size:2em;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+h2{
+    font-family: 'Titillium Web', sans-serif;
+    font-color: var(--color-text-blanc);
+    font-size:2em;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+h3{
+    font-family: 'Titillium Web', sans-serif;
+    font-color: var(--color-text-noir);
+    font-size:1.5em;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-color: var(--color-text-noir);
+    font-size:1em;
+    font-weight: 100;
+
+}
+
+
+/* Navigation principale */
+
+.navbar{
+    width: 100%;
+    background-color: var(--color-rouge);
+    overflow: auto;
+    justify-content: flex-start;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+
+}
+
+li a {
+    float: left;
+    padding: 10px;
+    color: var(--color-text-blanc);
+    text-decoration: none;
+    font-size: 1em;
+}
+
+/*fin navigation*/
+
+/*header*/
+
+.header-bg{
+    background-image: url("../media/Groupe_Projet_ImageHeader.jpg");
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.mainLogo{
+    max-width: 70%;
+    z-index: 3;
+    margin-left: 100px;
+    margin-top: 70px;
+}
+
+.bgSemiWhite{
+    background-color: rgba(255, 255, 255, 0.51);
+    background-size: cover;
+    height: 800px;
+}
+
+
+.sectionHeader h2{
+    text-align: left;
+    padding-left: 20px;
+    color: var(--color-text-blanc);
+
+}
+
+
+.sectionHeader{
+    margin-left:0px;
+    margin-top: 50px;
+    padding-right:60px;
+
+}
+
+.logoHeaderSmall{
+    align-content: center;
+    margin-top:30px;
+    margin-bottom: 10px;
+    padding:20px;
+    max-width: 98%;
+    height: auto;
+
+
+}
+
+.demolition {
+    float: right;
+    margin-top:20px;
+    padding:50px;
+    background-color: var(--color-bleu);
+    mix-blend-mode: multiply;
+
+}
+
+.rhinobac {
+    float: right;
+    margin-top:20px;
+    padding:50px;
+    background-color: var(--color-rouge);
+    mix-blend-mode: multiply;
+}
+.conteneur {
+    float: right;
+    margin-top: 20px;
+    padding:50px;
+    background-color: var(--color-vert);
+    mix-blend-mode: multiply;
+}
+
+.rhinofabric {
+    float: right;
+    margin-top:20px;
+    padding:50px;
+    background-color: var(--color-gris);
+    mix-blend-mode: multiply;
+}
+
+/* FIN header*/
+
+/*Main 1*/
+
+
+.contentSec1{
+    background-image: url("../media/Groupe_Projet_1Specialiste.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+
+.contentSec2{
+    background-image: url("../media/Groupe_Projet_2ExpertConteneur.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+.contentSec3{
+    background-image: url("../media/Groupe_Projet_3Partenaire.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+
+.contentSec4{
+    background-image: url("../media/Groupe_Projet_4ConteursMesure.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+
+/*Main 1*/
+
+
+/*Main 2*/
+.section2{
+    background-image: url("../media/Groupe_Projet_Section2.png");
+    background-repeat: no-repeat;
+    background-position:right center;
+
+}
+
+.bgRouge {
+    background: var(--color-rouge);
+}
+
+.bgRed {
+    background: var(--color-rouge);
+    mix-blend-mode: multiply;
+    margin-left:100px;
+    width: 1000px;
+    z-index:3;
+}
+
+.bgRed::before {
+    content: url("../media/Groupe_Projet_rhinoBlanc.png");
+}
+
+.bgBlack{
+    background-color:black;
+}
+
+.white-line{
+    border-top: 2px #ffffff;
+    color:white;
+    z-index:4;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    .bgRed {
+        background: var(--color-rouge);
+        mix-blend-mode: multiply;
+        margin-left:0px;
+        width: 300px;
+        z-index:3;
+    }
+
+    .header-bg {
+        background-image: url(../media/Groupe_Projet_ImageHeader.jpg);
+        height: 400px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .logoHeaderSmall{
+    display:none;
+    }
+
+}
+
+/*Page bleu*/
+
+.mainImage{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+
+}
+#mainImage1{
+    background-image: url("../media/ImagesDemolition/GroupeProjetMAinImage1.jpg");
+}
+hr.ligneBleu {
+    color: var(--color-bleu);
+
+}
+.carre::before{
+    content: url("../media/ImagesDemolition/carreBleu.svg");
+    padding:5px;
+    margin-top:10px;
+}
+
+.marginNegatif{
+    margin-top: -100px;
+}
+/* Small devices (landscape tablets, 720px and down) */
+@media only screen and (max-width: 480px){
+
+    .marginNegatif{
+        margin-top:0px;
+    }
+
+}
+
+
+/* Medium devices (landscape tablets, 720px and down) */
+@media only screen and (max-width: 720px) {
+
+    .bgRed {
+        background: var(--color-rouge);
+        mix-blend-mode: multiply;
+        margin-left:0px;
+        width: 600px;
+        z-index:3;
+    }
+
+    .marginNegatif{
+        margin-top:0px;
+    }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+    .bgRed {
+        background: var(--color-rouge);
+        mix-blend-mode: multiply;
+        margin-left:100px;
+        width: 1000px;
+        z-index:3;
+    }
+
+}
+
+

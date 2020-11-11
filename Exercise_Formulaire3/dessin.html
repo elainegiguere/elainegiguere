@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+<p>
+Exercices SVG
+SVG :
+Sur une nouvelle page web, dessiner une image de votre choix.
+Vous devez absolument utiliser toutes les balises vues en cours, soit :
+-rectangle
+-cercle
+-ellipse
+-line
+-polygon
+-polyline
+-path (simple car cette balise est plus complexe)
+-text
+Vous pouvez inclure des effets si vous le souhaitez !</p>
+
+
+<svg height="500" width="500">
+
+    <rect width="300" height="200"  style="fill:rgb(255,204,241);stroke-width:3;stroke:rgb(255,255,255)" />
+    <polygon points="0,0 0,190 500,500" style="fill:#beffbe;stroke:#ffffff;stroke-width:4" />
+    <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="#000" />
+    <circle cx="300" cy="200" r="30" stroke="black" stroke-width="3" fill="#000" />
+    <ellipse cx="400" cy="450" rx="100" ry="50" style="fill:rgba(36,36,36,0.31);stroke:#ffffff;stroke-width:2" />
+    <line x1="0" y1="0" x2="400" y2="400" style="stroke:rgb(255,195,157);stroke-width:8" />
+</svg>
+
+
+<canvas id="myCanvas" width="600" height="300" style="border:1px solid #000000"></canvas>
+<script>
+    //on stock notre canvas html dans une variable
+    let canvas = document.getElementById("myCanvas");
+    //on crée un objet qui va nous permettre de dessiner dans le canvas
+    let ctx = canvas.getContext("2d");
+
+    //je vais me créer un dégradé
+    let grad = ctx.createLinearGradient(0,0,300,0);
+    grad.addColorStop(0,"red");
+    grad.addColorStop(1,"white");
+    //créer un rectangle
+    //on choisi notre dégradé comme couleur
+    ctx.fillStyle = grad;
+    ctx.fillRect(0,0,600,300);
+    //Dessiner une ligne du coin haut gauche au point bas droit
+    //on pointe le coin haut gauche
+    ctx.moveTo(0,0);
+    ctx.lineTo(600,300);
+    ctx.stroke();
+    //créer un rond
+    ctx.beginPath();
+    ctx.arc(300,150,60,0,2*Math.PI);
+    ctx.stroke();
+</script>
+
+
+<canvas id="monCanvas" width= "1200" height="600" style=" border:2px solid red"></canvas>
+
+ <script>
+
+     let canvas = document.getElementById("monCanvas");
+     let ctx = canvas.getContext("2d");
+
+     //créer le dégradé
+     let grad = ctx.createLinearGradient(0,0,300,0);
+     grad.addColorStop(0,"rgb(255,204,241)");
+     grad.addColorStop(1,"rgb(255,255,0)");
+
+     // utiliser le dégradé
+     ctx.fillStyle = grad;
+     ctx.fillRect(0, 0, 1200, 600);
+
+     //faire le demi-cercle
+     ctx.beginPath();
+     ctx.arc(95, 50, 40, 0, 2 * Math.PI);
+     ctx.stroke();
+
+ </script>
+
+</body>
+</html>

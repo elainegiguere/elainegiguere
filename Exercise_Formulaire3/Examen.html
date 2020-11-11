@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<!--index.html-->
+<!--Par ÉlaineGiguère-->
+<!--14 octobre 2020-->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<canvas id="monCanvas" width= "1200" height="600" style="  border:2px solid red"></canvas>
+
+<script>
+
+    let canvas = document.getElementById("monCanvas");
+    let ctx = canvas.getContext("2d");
+
+    //créer couleurs de remplissage
+    ctx.fillstyle = "black";
+    ctx.fillRect (0,0,500,500);
+
+
+    //créer le dégradé
+    let grad = ctx.createLinearGradient(0,0,300,0);
+    grad.addColorStop(0,"rgb(255,204,241)");
+    grad.addColorStop(1,"rgb(255,255,0)");
+
+    // utiliser le dégradé
+    ctx.fillStyle = grad;
+    ctx.fillRect(0, 0, 1200, 600);
+
+    //faire le demi-cercle
+    ctx.beginPath();
+    ctx.arc(250, 250, 200, 0, 2 * Math.PI);
+    ctx.stroke();
+    ctx.fillstyle = grad;
+    ctx.fill();
+
+</script>
+
+</body>
+</html>
