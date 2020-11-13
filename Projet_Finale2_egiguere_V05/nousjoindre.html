@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+
+<!--index.html-->
+<!--Par Élaine Giguère-->
+<!--28 octobre 2020-->
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-with, initial-scale=1, shrink-to-fit=no">
+    <title>Groupe Projet</title>
+    <link rel="stylesheet" href="bootstrap-4.5.0-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="media/Favicon_Groupe_Projet.png"/>
+    <link href= href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,600;0,700;0,900;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- Navigation principale -->
+
+<nav class="navbar navbar-expand-sm">
+
+
+    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars  hamburger"></i>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-left list-group-horizontal">
+            <li class="nav-item p-2"><a class="nav-link" href="index.html">Accueil <span class="sr-only">(current)</span></a></li>
+            <li class="nav-item p-2"><a class="nav-link" href="apropos.html">À propos</a></li>
+            <li class="nav-item p-2"><a class="nav-link" href="realisation.html">Réalisation</a></li>
+            <li class="nav-item p-2"><a class="nav-link" href="blogue.html">Blogue</a></li>
+            <li class="nav-item p-2"><a class="nav-link" href="emploi.html">Emploi</a></li>
+            <li class="nav-item p-2"><a class="nav-link" href="nousjoindre.html">Nous joindre</a></li>
+        </ul>
+        <ul class="navbar-nav ml-auto list-group-horizontal">
+            <a href="#"><img class="img-fluid p-1" src="media/facebook.svg" alt="fb"></a>
+            <a href="#"><img class="img-fluid p-1" src="media/linkedin.svg" alt="fb"></a>
+        </ul>
+    </div>
+</nav>
+
+<!--header-->
+
+<div class="header">
+    <div class="container-fluid header-contact">
+        <div class="row">
+            <div class="col-6 col-12 multiply p-0">
+                <h1 class="text-white"> Nous joindre</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--FIN header-->
+
+
+<div class="container-fluid bgGroupeProjet">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 bkg-white">
+                <h3>Contactez-nous, nous sommes toujours disponible pour répondre à toute vos questions.</h3>
+                <div class="row">
+            <div class="col-md-3 col-12">
+                <img src="media/LogoGroupeProjet.svg" class="logoContact" alt="Logo Groupe Projet">
+                <p>166, Boul. Industriel, Bureau 200<br>
+                    Châteauguay, QC. J6J 4Z2<br>
+                    Tél. : (450) 691-9800<br>
+                    Fax : (450) 691-9881<br>
+                    info@projetdemolition.com</p><br>
+                <h3>Heures d'ouverture</h3>
+                <p>lundi : 9:30 à 17:30<br>
+                    mardi : 9:30 à 17:30<br>
+                    mercredi : 9:30 à 17:30<br>
+                    jeudi : 9:30 à 21:00<br>
+                    vendredi : 9:30 à 21:00<br>
+                    samedi : 10:00 à 17:00<br>
+                    dimanche : 12:00 à 16:00</p>
+            </div>
+            <div class="col-md-9 col-12">
+                <!-- section identification -->
+                <form onsubmit="return validerCodeRegional()">
+                    <div class="row pt-3">
+                        <div class="col-4">
+                            <h5>Identification<span class="required">*</span></h5>
+                        </div>
+                        <div class="col-4 ">
+                            <input type="text" id="nom" size="20" maxlength="50" minlength="2" required>
+                        </div>
+                        <div class="col-4">
+                            <input type="text" id="prenom" size="20" maxlength="50" minlength="2" required>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-4 offset-4">
+                            <label for="nom"><p>nom</p></label>
+                        </div>
+                        <div class="col-4">
+                            <label for="prenom"><p>prénom</p></label>
+                        </div>
+                    </div>
+
+                    <!-- section date -->
+
+                    <div class="row pt-3">
+                        <div class="col-4">
+                            <h5>Date du besoin <span class="required">*</span></h5>
+                        </div>
+                        <div class="col-4">
+                            <input type="date" id="ddn" min="2020-11-09" max="2024-10-01" required>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-4 offset-4">
+                            <label for="ddn"><p>Date du besoin</p></label>
+                        </div>
+                    </div>
+
+                    <!-- section date de numero de telephone -->
+
+                    <div class="row pt-3">
+                        <div class="col-4">
+                            <h5>Numéro de téléphone <span class="required">*</span></h5>
+                        </div>
+                        <div class="col-2">
+                            <input type="tel" id="codeRegional" pattern="[0-9]{3}" required size="7" >
+                        </div>
+                        <div class="col-1 text-center">
+                            <p>-</p>
+                        </div>
+                        <div class="col-5">
+                            <input type="tel" id="telephone" pattern="[0-9]{3}-[0-9]{4}" required size="20" >
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-4 offset-4">
+                            <label for="codeRegional"><p>Code régionale</p></label>
+                        </div>
+                        <div class="col-4">
+                            <label for="telephone"><p>Numéro de téléphone</p></label>
+                        </div>
+                    </div>
+
+
+                    <!-- section Courriel -->
+
+                    <div class="row pt-3">
+                        <div class="col-4">
+                            <h5>Courriel <span class="required">*</span></h5>
+                        </div>
+                        <div class="col-8">
+                            <input type="email" id="courriel" required placeholder=" exemple@courriel.com " size="40">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-8 offset-4">
+                            <label for="courriel"><p>Courriel</p></label>
+                        </div>
+                    </div>
+
+                    <!--Choix de division-->
+                    <div class="row pt-3 choix">
+                        <div class="col-4">
+                            <h5>Choix de division <span class="required">*</span></h5>
+                        </div>
+                        <div class="col-4">
+
+                            <label for="choixDeDivision"></label>
+                            <select id="choixDeDivision" name="choixDeDivision" form="choixDeDivision">
+                                <option value="vide"></option>
+                                <option value="Démolition"><p>Démolition</p></option>
+                                <option value="RhinoBac"><p>RhinoBac</p></option>
+                                <option value="Conteneur"><p>Conteneur</p></option>
+                                <option value="RhinoFabric"><p>RhinoFabric</p></option>
+                            </select>
+                        </div>
+                    </div>
+
+
+                    <!--Message-->
+                    <div class="row">
+                        <div class="col-4">
+                            <h5>Message <span class="required">*</span></h5>
+                        </div>
+
+                        <div class="col-8">
+                            <textarea rows="3" cols="50" name="comment"></textarea>
+                        </div>
+                    </div>
+                    <!--Présentation-->
+
+                    <div class="row">
+                        <div class="col-4 offset-4">
+                            <input type="submit" value="Envoyer">
+                        </div>
+                    </div>
+                </form>
+            </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--footer    -->
+<div class="container-fluid bgRouge mt-3">
+    <div class="row">
+
+        <div class="col-md-3 col-12 bg-white idFooter p-5">
+
+            <img class="logoMembres img-fluid pb-4" src="media/logoGroupeProjet_footer.jpg" alt="GroupeProjet">
+            <p>166, Boul. Industriel, Bureau 200<br>
+                Châteauguay, QC. J6J 4Z2<br>
+                Tél. : (450) 691-9800<br>
+                Fax : (450) 691-9881<br>
+                info@projetdemolition.com </p>
+        </div>
+
+
+        <div class="col-md-9 col-12">
+            <div class="row pt-4 align-items-bottom m-0">
+                <div class="col-12 col-md-6 p-1 footer">
+                    <a href="demolition.html"><h2 class="text-white">Démolition décontamination</h2></a>
+                    <a href="rhinobac.html"><h2 class="text-white">Rhinobac</h2></a>
+                    <a href="conteneurs.html"> <h2 class="text-white">Conteneurs A&A</h2></a>
+                    <a href="rhinofabric.html"><h2 class="text-white">Rhinofabric</h2></a>
+                </div>
+                <div class="col-6 text-right p-1">
+                    <a href="#"><img class="logoMembres img-fluid" src="media/facebook.svg" alt="fb"></a>
+                    <a href="#"><img class="logoMembres img-fluid" src="media/linkedin.svg" alt="fb"></a>
+
+
+                    <div class="row mt-5 align-items-baseline">
+                        <div class="col-12 p-1">
+                            <ul class="navbar-nav ml-auto list-group-horizontal d-flex justify-content-end">
+                                <li class="nav-item p-2"><a class="nav-link" href="index.html">Accueil <span class="sr-only">(current)</span></a></li>
+                                <li class="nav-item p-2"><a class="nav-link" href="apropos.html">À propos</a></li>
+                                <li class="nav-item p-2"><a class="nav-link" href="realisation.html">Réalisation</a></li>
+                                <li class="nav-item p-2"><a class="nav-link" href="blogue.html">Blogue</a></li>
+                                <li class="nav-item p-2"><a class="nav-link" href="emploi.html">Emploi</a></li>
+                                <li class="nav-item p-2"><a class="nav-link" href="nousjoindre.html">Nous joindre</a></li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+
+<script src="https://kit.fontawesome.com/a46d75ba7a.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="bootstrap-4.5.0-dist/js/bootstrap.js"></script>
+</body>
+</html>
+
+<script src="https://kit.fontawesome.com/a46d75ba7a.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="bootstrap-4.5.0-dist/js/bootstrap.js"></script>
+</body>
+</html>
